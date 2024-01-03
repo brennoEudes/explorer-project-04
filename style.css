@@ -5,7 +5,6 @@
 }
 
 /* REM = Root EM*/
-
 :root {
   font-size: 62, 5%; /* REGRA DE OURO: transforma em 10px a referência p/ os tamanhos das fontes, facilitando o cálculo do dimensionamento em todas as fontes! */
 }
@@ -77,9 +76,40 @@ ul li {
   gap: 3.8rem;
 }
 
+ul li + li {
+  margin-top: 3.2rem;
+}
+
 ul li span {
   font-size: 7.2rem;
   font-weight: 800;
   line-height: 8rem;
   letter-spacing: 2px; /* P/ medidas mt pequenas (<4px), é recomendável deixar píxel. */
+
+  min-width: 4.5rem; /* P/ corrigir largura dos nºs! */
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) { /* OU 768px/16 = 48em */
+  /* Aqui pode ser píxel pois é  uma un de medida c/ marcação fixa */
+
+  body {
+    padding: 8rem;
+  }
+
+  main {
+    max-width: 1020px; /* Aqui pode ser píxel pois é uma un de medida c/ marcação fixa */
+    display: flex;
+    gap: 10rem;
+  }
+
+  main > div {
+    max-width: 485px;
+  }
+
+  ul li {
+    gap: 5.3rem;
+    max-width: 450px;
+    align-items: center;
+  }
 }
