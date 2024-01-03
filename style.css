@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: var(--Bg_Light, #ece9fd);
+  background-color: #ece9fd;
 
   padding: 6rem 2.3rem 6.6rem;
 
@@ -35,7 +35,7 @@ main p:first-child {
 
 h1 {
   color: #090039;
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 800;
   line-height: 4.8rem;
 
@@ -84,13 +84,14 @@ ul li span {
   font-size: 7.2rem;
   font-weight: 800;
   line-height: 8rem;
-  letter-spacing: 2px; /* P/ medidas mt pequenas (<4px), é recomendável deixar píxel. */
+  letter-spacing: -2px; /* P/ medidas mt pequenas (<4px), é recomendável deixar píxel. */
 
   min-width: 4.5rem; /* P/ corrigir largura dos nºs! */
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 768px) { /* OU 768px/16 = 48em */
+@media (min-width: 768px) {
+  /* OU 48em, q é = (768px/16) */
   /* Aqui pode ser píxel pois é  uma un de medida c/ marcação fixa */
 
   body {
