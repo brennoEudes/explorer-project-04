@@ -37,3 +37,11 @@ h1 {
 
   margin-bottom: 1.5rem;
 }
+
+h1 + p {
+  /* seleciona o p cujo elemento anterior é o h1 */
+  color: rgba(10, 0, 57, 0.64);
+  line-height: 3.2rem;
+
+  margin-bottom: 3.2rem;
+}
