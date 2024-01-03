@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Bg_Light, #ECE9FD);
+
+    padding: 60px 23px 66px;
+}
