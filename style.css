@@ -4,10 +4,21 @@
   box-sizing: border-box;
 }
 
+/* REM = Root EM*/
+
+:root {
+    font-size: 62, 5%; /* REGRA DE OURO: transforma em 10px a referência p/ os tamanhos das fontes, facilitando o cálculo do dimensionamento em todas as fontes! */
+  }
+
 body {
   background-color: var(--Bg_Light, #ece9fd);
 
-  padding: 60px 23px 66px;
+  padding: 6rem 2.3rem 6.6rem;
 
   font-family: "Epilogue", sans-serif;
+  font-size: 1.6rem; /* Volta a fonte padrão para 16px! */
+}
+
+h1 {
+  font-size: 2.5rem;
 }
