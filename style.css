@@ -19,11 +19,16 @@ body {
   font-size: 1.6rem; /* Volta a fonte padrão para 16px! */
 }
 
+main {
+  max-width: 33rem;
+  margin: 0 auto;
+}
+
 main p:first-child {
   /* encontra o 1º p de main */
   color: #7158ef;
   line-height: 3.2rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 3px; /* P/ medidas mt pequenas (<4px), é recomendável deixar píxel. */
   text-transform: uppercase;
 
   margin-bottom: 1.7rem;
@@ -53,4 +58,28 @@ a {
 
 a:hover {
   color: #7158ef;
+}
+
+ul {
+  list-style: none;
+  color: #090039;
+
+  margin-top: 7.2rem;
+}
+
+ul li {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+
+  width: 25.7rem;
+  display: flex; /* obs: Tem como padrão "align-items: flexstart" */
+  gap: 3.8rem;
+}
+
+ul li span {
+  font-size: 7.2rem;
+  font-weight: 800;
+  line-height: 8rem;
+  letter-spacing: 2px; /* P/ medidas mt pequenas (<4px), é recomendável deixar píxel. */
 }
