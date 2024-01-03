@@ -1,11 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: var(--Bg_Light, #ECE9FD);
+  background-color: var(--Bg_Light, #ece9fd);
 
-    padding: 60px 23px 66px;
+  padding: 60px 23px 66px;
+
+  font-family: "Epilogue", sans-serif;
 }
