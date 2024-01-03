@@ -72,7 +72,7 @@ ul li {
   font-weight: 700;
   line-height: 3.2rem;
 
-  width: 25.7rem;
+  max-width: 25.7rem;
   display: flex; /* obs: Tem como padrão "align-items: flexstart" */
   gap: 3.8rem;
 }
